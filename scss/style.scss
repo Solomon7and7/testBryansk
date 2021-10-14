@@ -1,0 +1,54 @@
+// обнуление
+@import "_nullstyle";
+
+body{
+  margin: 0 auto;
+}
+
+.wrapper {
+  padding: 0 9%;
+}
+
+// Шаблон Флэкс
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+// Шаблон для элементов шапки
+.header__items {
+  font-family: PFDinTextCondPro-Bold, Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #5A1404;
+}
+
+.header {
+  height: 82px;
+  background: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .logo {
+    background: url("/img/logo.png") no-repeat;
+    background-size: 100%;
+    width: 177px;
+    height: 27px;
+    margin-right: 2%;
+  }
+  .menu {
+    width: 30%;
+    @extend .flex;
+    .menu__item {
+      @extend .header__items;
+    }
+  }
+  .author {
+    width: 19%;
+    @extend .flex;
+    .author__item {
+      @extend .header__items;
+    }
+  }
+}

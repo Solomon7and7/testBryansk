@@ -1,0 +1,29 @@
+@font-face {
+  font-family: 'PFDinTextCondPro-Bold';
+  src: 
+    url(/fonts/PFDinTextCondPro-Bold.ttf),
+    url(/fonts/pfdintextcondpro-bold.woff),
+    url(/fonts/pfdintextcondpro-bold.woff2);
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PFDinTextCondPro-Medium';
+  src: 
+    url(/fonts/PFDinTextCondPro-Medium.ttf),
+    url(/fonts/pfdintextcondpro-medium.woff),
+    url(/fonts/pfdintextcondpro-medium.woff2);
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PFDinTextCondPro-Regular';
+  src: 
+    url(/fonts/PFDinTextCondPro-Regular.ttf),
+    url(/fonts/pfdintextcondpro-regular.woff),
+    url(/fonts/pfdintextcondpro-regular.woff2);
+  font-weight: normal;
+  font-style: normal;
+}
