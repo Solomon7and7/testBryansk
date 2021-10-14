@@ -5,9 +5,9 @@ body{
   margin: 0 auto;
 }
 
-.wrapper {
-  padding: 0 9%;
-}
+// .wrapper {
+//   padding: 0 9%;
+// }
 
 // Шаблон Флэкс
 .flex {
@@ -19,13 +19,17 @@ body{
 // Шаблон для элементов шапки
 .header__items {
   font-family: PFDinTextCondPro-Bold, Arial, Helvetica, sans-serif;
-  font-size: 16px;
+  font-size: 1.14vw;
   text-transform: uppercase;
   color: #5A1404;
 }
 
+.header, .section-one__box, .section-two, .footer{
+  padding: 0 9%;
+}
+
 .header {
-  height: 82px;
+  height: 5.5vw;
   background: #fff;
   display: flex;
   justify-content: space-between;
@@ -33,9 +37,9 @@ body{
   .logo {
     background: url("/img/logo.png") no-repeat;
     background-size: 100%;
-    width: 177px;
-    height: 27px;
-    margin-right: 2%;
+    width: 15.3%;
+    height: 35%;
+    margin-right: 3%;
   }
   .menu {
     width: 30%;
@@ -45,10 +49,26 @@ body{
     }
   }
   .author {
-    width: 19%;
+    width: 19.5%;
     @extend .flex;
+    .author__item_yellow {
+      background-color: #FFCD00;
+      padding: 5% 18%;
+      border-radius: 30px;
+    }  
     .author__item {
       @extend .header__items;
     }
   }
+}
+
+.section-one {
+  background: url("/img/section-one__background.png") no-repeat;
+  background-size: 100%;
+  background-position-y: -7vh;
+  height: 84vw;
+}
+
+.order {
+  padding-top: 50%;
 }
