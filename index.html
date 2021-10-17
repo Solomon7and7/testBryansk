@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>OLTERMANNI</title>
   <link rel="stylesheet" href="fonts/font.css">
+  <link rel="stylesheet" href="./node_modules/swiper/swiper-bundle.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -82,8 +83,6 @@
             <div class="swiper-button-next"></div>
             <div class="swiper-button-prev"></div>
             <div class="swiper-pagination"></div>
-          
-            <div class="swiper-scrollbar"></div>
           </div>
         </div>
       </section>
@@ -113,6 +112,39 @@
       </div>
     </footer>
   </div> 
+    <!-- Initialize Swiper -->
+    <script type="module">
+      // import Swiper from '../node-module/swiper/swiper-bundle.esm.js';
+      // import '../node-module/swiper/swiper-bundle.css';
+      // const swiper = new Swiper('.swiper', {
+      //   cssMode: true,
+      //   navigation: {
+      //     nextEl: '.swiper-button-next',
+      //     prevEl: '.swiper-button-prev',
+      //   },
+      //   pagination: {
+      //     el: '.swiper-pagination'
+      //   },
+      //   mousewheel: true,
+      //   keyboard: true,
+      // });
+      const swiper = new Swiper('.swiper', {
+      slidesPerView: 4,
+      spaceBetween: 10,
+      slidesPerGroup: 1,
+      loop: true,
+      loopFillGroupWithBlank: true,
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
+    </script>
+  <script src="/node_modules/swiper/swiper-bundle.js"></script>
   <!-- <script src="/js/script.js"></script>  -->
 </body>
 </html>

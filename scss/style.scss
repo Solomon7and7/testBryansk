@@ -239,7 +239,7 @@ body{
     }
 
     .swiper {
-      width: 74vw;
+      width: 82vw;
       height: 33vw;
       .swiper-wrapper {
         display: flex;
@@ -247,12 +247,13 @@ body{
         justify-content: space-between;
         align-items: center; 
         .swiper-slide {
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-          align-items: center;
-          width: 100vw;
-          margin-right: 7%;
+          // display: flex;
+          // flex-direction: column;
+          // justify-content: center;
+          // align-items: center;
+          // width: 14.8vw;
+          // margin-right: 1.7%;
+          // margin-left: 5%;
           &:last-child {
             margin-right: 0;
           }
