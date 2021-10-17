@@ -255,58 +255,57 @@ body{
           // margin-right: 1.7%;
           // margin-left: 5%;
           &:last-child {
-            margin-right: 0;
+            // margin-right: 0;
           }
 
           .slide__description {
             font-family: PFDinTextCondPro-Medium;
             font-size: 1.2vw;
-            width: 64%;
+            width: 66%;
             text-align: center;
+            padding-left: 13%;
           }
 
           .slide__description-one {
-            width: 70%;
-            padding-left: 10%;
+            width: 63%;
+            padding-left: 19%;
           }
 
           .slide__description-three {
             width: 73%;
-            padding-right: 8%;
+            padding-right: 5%;
           }
 
           //Шаблон размеров для картинок слайдера
           .slider-img-size {
-            width: 100%;
+            width: 82%;
             height: 22vw;
           }
 
           .slide__img-one {
             background: url('/img/cheese1.png') no-repeat;
-            background-size: 93%;
-            background-position-x: 113%;
+            background-size: 100%;
+            // background-position-x: 113%;
             @extend .slider-img-size;
           }
 
           .slide__img-two {
             background: url('/img/cheese2.png') no-repeat;
-            background-size: 85%;
-            background-position-x: 39%;
-            background-position-y: 31%;
+            background-size: 92%;
+            background-position-y: 33%;
             @extend .slider-img-size;
           }
 
           .slide__img-three {
             background: url('/img/cheese3.png') no-repeat;
-            background-size: 93%;
+            background-size: 100%;
             @extend .slider-img-size;
           }
 
           .slide__img-four {
             background: url('/img/cheese4.png') no-repeat;
-            background-size: 85%;
-            background-position-x: 39%;
-            background-position-y: 27%;
+            background-size: 92%;
+            background-position-y: 33%;
             @extend .slider-img-size;
           }
         }
