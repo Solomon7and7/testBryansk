@@ -112,6 +112,7 @@ body {
   width: 15.3%;
   height: 35%;
   margin-right: 3%;
+  cursor: pointer;
 }
 
 .header .menu {
@@ -132,7 +133,7 @@ body {
   background: url("/img/section-one__background.png") no-repeat;
   background-size: 100%;
   background-position-y: -7vh;
-  height: 100vw;
+  height: 124vw;
 }
 
 .section .section-one {
@@ -146,7 +147,7 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  height: 86%;
+  height: 69.5%;
 }
 
 .section .section-one .one-box__item {
@@ -339,15 +340,102 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  position: relative;
 }
 
 .section-two .section-two__title {
   font-size: 2.5vw;
   font-family: PFDinTextCondPro-Medium;
   padding-top: 2%;
+  margin-bottom: 9%;
 }
 
 .section-two .swiper {
-  width: 600px;
-  height: 300px;
+  width: 74vw;
+  height: 33vw;
+}
+
+.section-two .swiper .swiper-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.section-two .swiper .swiper-wrapper .swiper-slide {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100vw;
+  margin-right: 7%;
+}
+
+.section-two .swiper .swiper-wrapper .swiper-slide:last-child {
+  margin-right: 0;
+}
+
+.section-two .swiper .swiper-wrapper .swiper-slide .slide__description {
+  font-family: PFDinTextCondPro-Medium;
+  font-size: 1.2vw;
+  width: 64%;
+  text-align: center;
+}
+
+.section-two .swiper .swiper-wrapper .swiper-slide .slide__description-one {
+  width: 70%;
+  padding-left: 10%;
+}
+
+.section-two .swiper .swiper-wrapper .swiper-slide .slide__description-three {
+  width: 73%;
+  padding-right: 8%;
+}
+
+.section-two .swiper .swiper-wrapper .swiper-slide .slider-img-size, .section-two .swiper .swiper-wrapper .swiper-slide .slide__img-one, .section-two .swiper .swiper-wrapper .swiper-slide .slide__img-two, .section-two .swiper .swiper-wrapper .swiper-slide .slide__img-three, .section-two .swiper .swiper-wrapper .swiper-slide .slide__img-four {
+  width: 100%;
+  height: 22vw;
+}
+
+.section-two .swiper .swiper-wrapper .swiper-slide .slide__img-one {
+  background: url("/img/cheese1.png") no-repeat;
+  background-size: 93%;
+  background-position-x: 113%;
+}
+
+.section-two .swiper .swiper-wrapper .swiper-slide .slide__img-two {
+  background: url("/img/cheese2.png") no-repeat;
+  background-size: 85%;
+  background-position-x: 39%;
+  background-position-y: 31%;
+}
+
+.section-two .swiper .swiper-wrapper .swiper-slide .slide__img-three {
+  background: url("/img/cheese3.png") no-repeat;
+  background-size: 93%;
+}
+
+.section-two .swiper .swiper-wrapper .swiper-slide .slide__img-four {
+  background: url("/img/cheese4.png") no-repeat;
+  background-size: 85%;
+  background-position-x: 39%;
+  background-position-y: 27%;
 }

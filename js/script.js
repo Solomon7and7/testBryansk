@@ -1,33 +1,19 @@
 import Swiper from 'swiper/bundle';
 import 'swiper/css/bundle';
+import 'swiper/core/core';
 
-// const direction
-// const loop
-// const 
-// const 
-// const 
-// const 
-// const 
-// const swiper = new Swiper(...);
-
-const swiper = new Swiper('.swiper', {
-  // Optional parameters
-  direction: 'vertical',
+var swiper = new Swiper(".mySwiper", {
+  slidesPerView: 3,
+  spaceBetween: 30,
+  slidesPerGroup: 3,
   loop: true,
-
-  // If we need pagination
+  loopFillGroupWithBlank: true,
   pagination: {
-    el: '.swiper-pagination',
+    el: ".swiper-pagination",
+    clickable: true,
   },
-
-  // Navigation arrows
   navigation: {
-    nextEl: '.swiper-button-next',
-    prevEl: '.swiper-button-prev',
-  },
-
-  // And if we need scrollbar
-  scrollbar: {
-    el: '.swiper-scrollbar',
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
   },
 });
