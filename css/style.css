@@ -69,7 +69,7 @@ body {
   margin: 0 auto;
 }
 
-.flexSB, .header .menu, .header .author, .section .section-one .info .info-box {
+.flexSB, .header .menu, .header .author, .section .section-one .info .info-box, .footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -134,6 +134,7 @@ body {
   background-size: 100%;
   background-position-y: -7vh;
   height: 124vw;
+  margin-bottom: 3%;
 }
 
 .section .section-one {
@@ -414,4 +415,148 @@ body {
   background: url("/img/cheese4.png") no-repeat;
   background-size: 92%;
   background-position-y: 33%;
+}
+
+.footer .footer-info {
+  padding: 0 0.3vw 0.8vw 0.3vw;
+}
+
+.footer .footer-info__title {
+  font-family: PFDinTextCondPro-Medium;
+  font-size: 1.1vw;
+  text-transform: uppercase;
+  margin-bottom: 4%;
+  color: #5a1404;
+}
+
+.footer .footer-info__number {
+  font-family: PFDinTextCondPro-Bold;
+  font-size: 2.4vw;
+  margin-bottom: 4%;
+  color: #e43219;
+}
+
+.footer .footer-info__description {
+  font-family: PFDinTextCondPro-Medium;
+  font-size: 0.8vw;
+  text-transform: uppercase;
+  color: #5b1a0d;
+}
+
+.footer .footer-menu {
+  padding: 0 0 6vw 0;
+}
+
+.footer .footer-menu .footer-menu__item {
+  font-family: PFDinTextCondPro-Medium;
+  font-size: 1.1vw;
+  padding: 0vw 2.3vw 0vw 2.3vw;
+  color: #5a1404;
+}
+
+.footer .footer-menu .footer-menu__faq {
+  text-transform: uppercase;
+}
+
+.footer .social {
+  padding-bottom: 3.3%;
+}
+
+.footer .social .social__title {
+  font-family: PFDinTextCondPro-Medium;
+  font-size: 1.1vw;
+  color: #5a1404;
+  margin-bottom: 6%;
+}
+
+.footer .social .social-icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.footer .social .social-icon {
+  width: 2.3vw;
+  height: 2.3vw;
+  background-color: #FFCD00;
+  margin-right: 9px;
+  border-radius: 18%;
+}
+
+.footer .social .social-icon-size, .footer .social .icon__fb::after, .footer .social .icon__vc::after, .footer .social .icon__link::after, .footer .social .icon__tw::after, .footer .social .icon__inst::after, .footer .social .icon__p::after {
+  content: '';
+  position: absolute;
+  width: 2vw;
+  height: 2vw;
+  cursor: pointer;
+}
+
+.footer .social .icon__fb {
+  position: relative;
+}
+
+.footer .social .icon__fb::after {
+  background: url("/img/fb.svg") no-repeat;
+  background-size: 24%;
+  background-position-x: 65%;
+  background-position-y: 56%;
+}
+
+.footer .social .icon__vc {
+  position: relative;
+}
+
+.footer .social .icon__vc::after {
+  background: url("/img/vc.svg") no-repeat;
+  background-size: 54%;
+  background-position-x: 65%;
+  background-position-y: 56%;
+}
+
+.footer .social .icon__link {
+  position: relative;
+}
+
+.footer .social .icon__link::after {
+  background: url("/img/link.svg") no-repeat;
+  background-size: 45%;
+  background-position-x: 65%;
+  background-position-y: 56%;
+}
+
+.footer .social .icon__tw {
+  position: relative;
+}
+
+.footer .social .icon__tw::after {
+  background: url("/img/twit.svg") no-repeat;
+  background-size: 53%;
+  background-position-x: 65%;
+  background-position-y: 56%;
+}
+
+.footer .social .icon__inst {
+  position: relative;
+}
+
+.footer .social .icon__inst::after {
+  background: url("/img/insta.svg") no-repeat;
+  background-size: 45%;
+  background-position-x: 65%;
+  background-position-y: 56%;
+}
+
+.footer .social .icon__p {
+  position: relative;
+}
+
+.footer .social .icon__p::after {
+  background: url("/img/p.svg") no-repeat;
+  background-size: 38%;
+  background-position-x: 65%;
+  background-position-y: 56%;
 }

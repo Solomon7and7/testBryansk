@@ -63,7 +63,8 @@ body{
   background: url("/img/section-one__background.png") no-repeat;
   background-size: 100%;
   background-position-y: -7vh;
-  height: 124vw;;
+  height: 124vw;
+  margin-bottom: 3%;
   .section-one {
     display: flex;
     align-items: center;
@@ -311,4 +312,130 @@ body{
         }
       }
     }
+}
+
+.footer {
+  @extend .flexSB;
+  .footer-info {
+    padding: 0 0.3vw 0.8vw 0.3vw;
   }
+  .footer-info__title {
+    font-family: PFDinTextCondPro-Medium;
+    font-size: 1.1vw;
+    text-transform: uppercase;
+    margin-bottom: 4%;
+    color: #5a1404;
+  }
+  .footer-info__number {
+    font-family: PFDinTextCondPro-Bold;
+    font-size: 2.4vw;
+    margin-bottom: 4%;
+    color: #e43219;
+  }
+  .footer-info__description {
+    font-family: PFDinTextCondPro-Medium;
+    font-size: 0.8vw;
+    text-transform: uppercase;
+    color: #5b1a0d;
+  }
+  .footer-menu {
+    padding: 0 0 6vw 0;
+    .footer-menu__item {
+      font-family: PFDinTextCondPro-Medium;
+      font-size: 1.1vw;
+      padding: 0vw 2.3vw 0vw 2.3vw;
+      color: #5a1404;
+    }
+    .footer-menu__faq {
+    text-transform: uppercase;
+    }
+  }
+  .social {
+    padding-bottom: 3.3%;
+    .social__title {
+      font-family: PFDinTextCondPro-Medium;
+      font-size: 1.1vw;
+      color: #5a1404;
+      margin-bottom: 6%;
+    }
+    .social-icons{
+      display: flex;
+      flex-direction: row;
+    }
+    .social-icon {
+      width: 2.3vw;
+      height: 2.3vw;
+      background-color: #FFCD00;
+      margin-right: 9px;
+      border-radius: 18%;
+    }
+    //Шаблон для внутрен социалок псевдоклассов
+    .social-icon-size {
+      content: '';
+      position: absolute;
+      width: 2vw;
+      height: 2vw;
+      cursor: pointer;
+    }
+    .icon__fb {
+      position: relative;
+      &::after{
+        @extend .social-icon-size;
+        background: url('/img/fb.svg') no-repeat;
+        background-size: 24%;
+        background-position-x: 65%;
+        background-position-y: 56%;
+      }
+    }
+    .icon__vc {
+      position: relative;
+      &::after{
+        @extend .social-icon-size;
+        background: url('/img/vc.svg') no-repeat;
+        background-size: 54%;
+        background-position-x: 65%;
+        background-position-y: 56%;
+      }
+    }
+    .icon__link {
+      position: relative;
+      &::after{
+        @extend .social-icon-size;
+        background: url('/img/link.svg') no-repeat;
+        background-size: 45%;
+        background-position-x: 65%;
+        background-position-y: 56%;
+      }
+    }
+    .icon__tw {
+      position: relative;
+      &::after{
+        @extend .social-icon-size;
+        background: url('/img/twit.svg') no-repeat;
+        background-size: 53%;
+        background-position-x: 65%;
+        background-position-y: 56%;
+      }
+    }
+    .icon__inst {
+      position: relative;
+      &::after{
+        @extend .social-icon-size;
+        background: url('/img/insta.svg') no-repeat;
+        background-size: 45%;
+        background-position-x: 65%;
+        background-position-y: 56%;
+      }
+    }
+    .icon__p {
+      position: relative;
+      &::after{
+        @extend .social-icon-size;
+        background: url('/img/p.svg') no-repeat;
+        background-size: 38%;
+        background-position-x: 65%;
+        background-position-y: 56%;
+      }
+    }
+  }
+}

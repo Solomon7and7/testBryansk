@@ -87,27 +87,27 @@
         </div>
       </section>
     </main>
-    <footer>
-      <div>
-        <h3></h3>
-        <p></p>
-        <p></p>
+    <footer class="footer">
+      <div class="footer-info">
+        <h3 class="footer-info__title">Информационная линия</h3>
+        <p class="footer-info__number">8 800 333-15-25</p>
+        <p class="footer-info__description">© 2020 ООО «Валио»</p>
       </div>
-      <nav>
-        <a href="#"></a>
-        <a href="#"></a>
-        <a href="#"></a>
+      <nav class="footer-menu">
+        <a class="footer-menu__item footer-menu__connect" href="#">Обратная связь</a>
+        <a class="footer-menu__item footer-menu__rules" href="#">Правила акции</a>
+        <a class="footer-menu__item footer-menu__faq" href="#">faq</a>
       </nav>
-      <div>
-        <div></div>
-        <div> 
+      <div class="social">
+        <div class="social__title">Присоединяйтесь к нам</div>
+        <div class="social-icons"> 
           <!-- для иконок сделать фон через css, а буквы вставить как картинки -->
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
+          <div class="social-icon icon__fb"></div>
+          <div class="social-icon icon__vc"></div>
+          <div class="social-icon icon__link"></div>
+          <div class="social-icon icon__tw"></div>
+          <div class="social-icon icon__inst"></div>
+          <div class="social-icon icon__p"></div>
         </div>
       </div>
     </footer>
@@ -128,6 +128,12 @@
         nextEl: '.swiper-button-next',
         prevEl: '.swiper-button-prev',
       },
+      autoplay: {
+        delay: 2000,
+        stopOnLastSlide: true,
+        disableOnInteraction: false
+      },
+      speed: 800
     });
     </script>
   <script src="/node_modules/swiper/swiper-bundle.js"></script>
