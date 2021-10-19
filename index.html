@@ -13,13 +13,13 @@
     <header class="header">
       <div class="logo"></div>
       <nav class="menu">
-        <a href="#" class="menu__item">Правила</a>
-        <a href="#" class="menu__item">Призы</a>
-        <a href="#" class="menu__item">Победители</a>
+        <a class="menu__item rules">Правила</a>
+        <a class="menu__item prizes">Призы</a>
+        <a class="menu__item winners">Победители</a>
       </nav>
       <nav class="author">
-        <a href="#" class="author__item author__item_yellow">Вход</a>
-        <a href="#" class="author__item">Регистрация</a>
+        <a href="#" class="author__item author__login">Вход</a>
+        <a href="#" class="author__item author__reg">Регистрация</a>
       </nav>
     </header>
     <main class="main">
@@ -61,7 +61,7 @@
         </div>
         <div class="section-two">
           <div><h2 class="section-two__title">В акции участвуют</h2></div>
-          <div class="swiper mySwiper">
+          <div class="swiper">
             <div class="swiper-wrapper">
               <div class="swiper-slide">
                 <div class="slide__img-one"></div>
@@ -111,7 +111,6 @@
         </div>
       </div>
     </footer>
-  </div> 
     <!-- Initialize Swiper -->
     <script type="module">
       const swiper = new Swiper('.swiper', {
@@ -137,5 +136,6 @@
     });
     </script>
   <script src="/node_modules/swiper/swiper-bundle.js"></script>
+  <script src="/js/script.js"></script>
 </body>
 </html>
