@@ -57,3 +57,38 @@ function createModalWin() {
     win.style.display = 'block';
   };
 };
+
+// if (authorReg.style.display === none) {
+//   console.log('hello')
+// }
+const header = document.querySelector('.header');
+
+// if (window.screen.availWidth <= 640) {
+//   header.insertAdjacentHTML("afterbegin", `
+//   <input id="menu__toggle" type="checkbox"/>
+//   <nav class = "menu">
+//     <a class="menu__item rules">Правила</a>
+//     <a class="menu__item prizes">Призы</a>
+//     <a class="menu__item winners">Победители</a>
+//   </nav>
+//   <div></div>
+//   <nav class="footer-menu">
+//     <a class="footer-menu__item footer-menu__connect" href="#">Обратная связь</a>
+//     <a class="footer-menu__item footer-menu__rules" href="#">Правила акции</a>
+//     <a class="footer-menu__item footer-menu__faq" href="#">faq</a>
+//   </nav>
+//   <div></div>
+//   <div class="social">
+//         <div class="social__title">Присоединяйтесь к нам</div>
+//         <div class="social-icons"> 
+//           <div class="social-icon icon__fb"></div>
+//           <div class="social-icon icon__vc"></div>
+//           <div class="social-icon icon__link"></div>
+//           <div class="social-icon icon__tw"></div>
+//           <div class="social-icon icon__inst"></div>
+//           <div class="social-icon icon__p"></div>
+//         </div>
+//       </div>
+//   <label class="menu__btn" for="menu__toggle">
+// `);
+// }
