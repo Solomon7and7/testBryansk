@@ -134,6 +134,7 @@ body {
 
 .header .author {
   width: 19.5%;
+  position: relative;
 }
 
 .header .author .author__login {
@@ -148,6 +149,10 @@ body {
   background-color: #E63000;
 }
 
+.header .author .author__item {
+  cursor: pointer;
+}
+
 .header .author .author__reg {
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
@@ -157,6 +162,28 @@ body {
   background-color: #E63000;
   border-radius: 30px;
   padding: 5% 5%;
+}
+
+.win {
+  width: 18vw;
+  height: 10vw;
+  background-color: #fff;
+  position: absolute;
+  border: 30px;
+  top: 4vw;
+  right: -1vw;
+}
+
+.win .win__close {
+  width: 2vw;
+  height: 2vw;
+  background-color: #000;
+}
+
+.win .win__button-close {
+  width: 6vw;
+  height: 2vw;
+  background-color: #000;
 }
 
 .section {
@@ -194,19 +221,31 @@ body {
   border: solid 0.6vw;
   background-color: #E63000;
   color: #fff;
-  -webkit-transition: all 0.5s ease 0s;
-  transition: all 0.5s ease 0s;
   -webkit-box-shadow: rgba(255, 255, 255, 0.842) 0px 5px 20px;
           box-shadow: rgba(255, 255, 255, 0.842) 0px 5px 20px;
   margin-bottom: 4.5%;
-  -webkit-transition: all 0.8s ease-in-out;
-  transition: all 0.8s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  -webkit-animation: flash 1.5s infinite alternate ease-out;
+          animation: flash 1.5s infinite alternate ease-out;
 }
 
 .section .section-one .order:hover {
   -webkit-transform: scale(1.2);
           transform: scale(1.2);
-  background-color: #ff790bcb;
+  background-color: #ff790bec;
+}
+
+@-webkit-keyframes flash {
+  to {
+    background-color: #ff790bec;
+  }
+}
+
+@keyframes flash {
+  to {
+    background-color: #ff790bec;
+  }
 }
 
 .section .section-one .info {
