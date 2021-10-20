@@ -716,7 +716,7 @@ body {
     background: url("../img/section-one__backgroundMOBILE.png") no-repeat;
     background-color: #ffcd00;
     background-size: 100%;
-    background-position-y: -22vh;
+    background-position-y: -17vw;
     height: 550vw;
     margin-bottom: -18%;
   }
@@ -921,7 +921,7 @@ body {
 
 @media (max-width: 360px) {
   .section {
-    background-position-y: -12vh;
+    background-position-y: -17vw;
   }
   .header .author .author__login {
     padding: 11% 31%;
