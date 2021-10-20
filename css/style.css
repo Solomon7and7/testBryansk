@@ -4,13 +4,9 @@
   border: 0;
 }
 
-*, *:before, *:after {
+*, *::before, *::after {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-}
-
-:focus, :active {
-  outline: none;
 }
 
 a:focus, a:active {
@@ -44,7 +40,7 @@ button::-moz-focus-inner {
   border: 0;
 }
 
-a, a:visited {
+a {
   text-decoration: none;
 }
 
@@ -111,7 +107,7 @@ body {
 }
 
 .header .logo {
-  background: url("/img/logo.png") no-repeat;
+  background: url("../img/logo.png") no-repeat;
   background-size: 100%;
   width: 15.3%;
   height: 35%;
@@ -182,7 +178,7 @@ body {
 }
 
 .win .win__close {
-  background: url("/img/close.png") no-repeat;
+  background: url("../img/close.png") no-repeat;
   background-size: 69%;
   width: 2vw;
   height: 2vw;
