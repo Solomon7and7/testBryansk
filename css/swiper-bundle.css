@@ -220,7 +220,7 @@
 .swiper-rtl .swiper-button-next:after {
   content: '';
   position: absolute;
-  background: url('/img/ShapeLeft.svg') no-repeat;
+  background: url('../img/ShapeLeft.svg') no-repeat;
   background-size: 100%;
   width: 2vw;
 }
@@ -233,7 +233,7 @@
 .swiper-rtl .swiper-button-prev:after {
   content: '';
   position: absolute;
-  background: url('/img/ShapeRight.svg') no-repeat;
+  background: url('../img/ShapeRight.svg') no-repeat;
   background-size: 100%;
   width: 2vw;
 }

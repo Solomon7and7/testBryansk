@@ -112,10 +112,12 @@ body{
     width: 2vw;
     height: 2vw;
     cursor: pointer;
-    margin: 0.5vw 16vw;
+    margin: 0.5vw 15.6vw;
   }
 
   .win__button-close {
+    font-family: PFDinTextCondPro-Bold, Arial, Helvetica, sans-serif;
+    font-size: 1vw;
     width: 6vw;
     height: 2vw;
     margin: 4vw 6vw;
@@ -147,7 +149,7 @@ body{
     }
 
     .order {
-      font-family: PFDinTextCondPro-Medium;
+      font-family: PFDinTextCondPro-Medium, Arial, Helvetica, sans-serif;
       font-size: 1.1vw;
       text-transform: uppercase;
       padding: 1.2% 4.2%;
@@ -178,7 +180,7 @@ body{
       flex-direction: column;
 
       .info__title {
-        font-family: PFDinTextCondPro-Medium;
+        font-family: PFDinTextCondPro-Medium, Arial, Helvetica, sans-serif;
         font-size: 4.2vw;
         text-transform: uppercase;
         color: #E63000;
@@ -297,7 +299,7 @@ body{
             font-size: 1.2vw;
             color: #5B1A0D;
             width: 63%;
-            font-family: PFDinTextCondPro-Bold;
+            font-family: PFDinTextCondPro-Bold, Arial, Helvetica, sans-serif;
           }
 
           .box__description-one {
@@ -326,7 +328,7 @@ body{
     .section-two__title {
       @extend .header__items;
       font-size: 2.5vw;
-      font-family: PFDinTextCondPro-Medium;
+      font-family: PFDinTextCondPro-Medium, Arial, Helvetica, sans-serif;
       padding-top: 2%;
       margin-bottom: 9%;
     }
@@ -342,7 +344,7 @@ body{
         align-items: center; 
 
           .slide__description {
-            font-family: PFDinTextCondPro-Medium;
+            font-family: PFDinTextCondPro-Medium, Arial, Helvetica, sans-serif;
             font-size: 1.2vw;
             width: 66%;
             text-align: center;
@@ -403,7 +405,7 @@ body{
   }
 
   .footer-info__title {
-    font-family: PFDinTextCondPro-Medium;
+    font-family: PFDinTextCondPro-Medium, Arial, Helvetica, sans-serif;
     font-size: 1.1vw;
     text-transform: uppercase;
     margin-bottom: 4%;
@@ -411,14 +413,14 @@ body{
   }
 
   .footer-info__number {
-    font-family: PFDinTextCondPro-Bold;
+    font-family: PFDinTextCondPro-Bold, Arial, Helvetica, sans-serif;
     font-size: 2.4vw;
     margin-bottom: 4%;
     color: #e43219;
   }
 
   .footer-info__description {
-    font-family: PFDinTextCondPro-Medium;
+    font-family: PFDinTextCondPro-Medium, Arial, Helvetica, sans-serif;
     font-size: 0.8vw;
     text-transform: uppercase;
     color: #5b1a0d;
@@ -428,7 +430,7 @@ body{
     padding: 0 0 6vw 0;
 
     .footer-menu__item {
-      font-family: PFDinTextCondPro-Medium;
+      font-family: PFDinTextCondPro-Medium, Arial, Helvetica, sans-serif;
       font-size: 1.1vw;
       padding: 0vw 2.3vw 0vw 2.3vw;
       color: #5a1404;
@@ -449,7 +451,7 @@ body{
     padding-bottom: 3.3%;
 
     .social__title {
-      font-family: PFDinTextCondPro-Medium;
+      font-family: PFDinTextCondPro-Medium, Arial, Helvetica, sans-serif;
       font-size: 1.1vw;
       color: #5a1404;
       margin-bottom: 6%;
@@ -601,6 +603,10 @@ body{
     }
 
     .author {
+      .win {
+        top: 11vw;
+        right: 2vw;
+      }
 
      .author__reg {
       display: none;
@@ -703,7 +709,7 @@ body{
 
             .box__description {
               font-size: 5.4vw;
-              font-family: PFDinTextCondPro-Medium;
+              font-family: PFDinTextCondPro-Medium, Arial, Helvetica, sans-serif;
               width: 68%;
             }
 
@@ -726,7 +732,7 @@ body{
 
     .section-two__title {
       font-size: 8.3vw;
-      font-family: PFDinTextCondPro-Medium;
+      font-family: PFDinTextCondPro-Medium, Arial, Helvetica, sans-serif;
       padding-top: 0%;
       margin-bottom: 9%;
     }

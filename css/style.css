@@ -183,10 +183,12 @@ body {
   width: 2vw;
   height: 2vw;
   cursor: pointer;
-  margin: 0.5vw 16vw;
+  margin: 0.5vw 15.6vw;
 }
 
 .win .win__button-close {
+  font-family: PFDinTextCondPro-Bold, Arial, Helvetica, sans-serif;
+  font-size: 1vw;
   width: 6vw;
   height: 2vw;
   margin: 4vw 6vw;
@@ -227,7 +229,7 @@ body {
 }
 
 .section .section-one .order {
-  font-family: PFDinTextCondPro-Medium;
+  font-family: PFDinTextCondPro-Medium, Arial, Helvetica, sans-serif;
   font-size: 1.1vw;
   text-transform: uppercase;
   padding: 1.2% 4.2%;
@@ -276,7 +278,7 @@ body {
 }
 
 .section .section-one .info .info__title {
-  font-family: PFDinTextCondPro-Medium;
+  font-family: PFDinTextCondPro-Medium, Arial, Helvetica, sans-serif;
   font-size: 4.2vw;
   text-transform: uppercase;
   color: #E63000;
@@ -406,7 +408,7 @@ body {
   font-size: 1.2vw;
   color: #5B1A0D;
   width: 63%;
-  font-family: PFDinTextCondPro-Bold;
+  font-family: PFDinTextCondPro-Bold, Arial, Helvetica, sans-serif;
 }
 
 .section .section-one .info .info-box .box .box__description-one {
@@ -437,7 +439,7 @@ body {
 
 .section-two .section-two__title {
   font-size: 2.5vw;
-  font-family: PFDinTextCondPro-Medium;
+  font-family: PFDinTextCondPro-Medium, Arial, Helvetica, sans-serif;
   padding-top: 2%;
   margin-bottom: 9%;
 }
@@ -464,7 +466,7 @@ body {
 }
 
 .section-two .swiper .swiper-wrapper .slide__description {
-  font-family: PFDinTextCondPro-Medium;
+  font-family: PFDinTextCondPro-Medium, Arial, Helvetica, sans-serif;
   font-size: 1.2vw;
   width: 66%;
   text-align: center;
@@ -513,7 +515,7 @@ body {
 }
 
 .footer .footer-info__title {
-  font-family: PFDinTextCondPro-Medium;
+  font-family: PFDinTextCondPro-Medium, Arial, Helvetica, sans-serif;
   font-size: 1.1vw;
   text-transform: uppercase;
   margin-bottom: 4%;
@@ -521,14 +523,14 @@ body {
 }
 
 .footer .footer-info__number {
-  font-family: PFDinTextCondPro-Bold;
+  font-family: PFDinTextCondPro-Bold, Arial, Helvetica, sans-serif;
   font-size: 2.4vw;
   margin-bottom: 4%;
   color: #e43219;
 }
 
 .footer .footer-info__description {
-  font-family: PFDinTextCondPro-Medium;
+  font-family: PFDinTextCondPro-Medium, Arial, Helvetica, sans-serif;
   font-size: 0.8vw;
   text-transform: uppercase;
   color: #5b1a0d;
@@ -539,7 +541,7 @@ body {
 }
 
 .footer .footer-menu .footer-menu__item {
-  font-family: PFDinTextCondPro-Medium;
+  font-family: PFDinTextCondPro-Medium, Arial, Helvetica, sans-serif;
   font-size: 1.1vw;
   padding: 0vw 2.3vw 0vw 2.3vw;
   color: #5a1404;
@@ -561,7 +563,7 @@ body {
 }
 
 .footer .social .social__title {
-  font-family: PFDinTextCondPro-Medium;
+  font-family: PFDinTextCondPro-Medium, Arial, Helvetica, sans-serif;
   font-size: 1.1vw;
   color: #5a1404;
   margin-bottom: 6%;
@@ -703,6 +705,10 @@ body {
   .header .menu {
     display: none;
   }
+  .header .author .win {
+    top: 11vw;
+    right: 2vw;
+  }
   .header .author .author__reg {
     display: none;
   }
@@ -793,7 +799,7 @@ body {
   }
   .section .section-one .info .info-box .box .box__description {
     font-size: 5.4vw;
-    font-family: PFDinTextCondPro-Medium;
+    font-family: PFDinTextCondPro-Medium, Arial, Helvetica, sans-serif;
     width: 68%;
   }
   .section .section-one .info .info-box .box .box__description-two {
@@ -805,7 +811,7 @@ body {
   }
   .section-two .section-two__title {
     font-size: 8.3vw;
-    font-family: PFDinTextCondPro-Medium;
+    font-family: PFDinTextCondPro-Medium, Arial, Helvetica, sans-serif;
     padding-top: 0%;
     margin-bottom: 9%;
   }
