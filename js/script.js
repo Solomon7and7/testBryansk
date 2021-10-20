@@ -1,3 +1,5 @@
+import '../node_modules/swiper/swiper-bundle';
+
 const rules = document.querySelector('.rules');
 const prizes = document.querySelector('.prizes');
 const winners = document.querySelector('.winners');
