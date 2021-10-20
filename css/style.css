@@ -107,7 +107,7 @@ body {
 }
 
 .header .logo {
-  background: url("../img/logo.png") no-repeat;
+  background: url("..../img/logo.png") no-repeat;
   background-size: 100%;
   width: 15.3%;
   height: 35%;
@@ -178,7 +178,7 @@ body {
 }
 
 .win .win__close {
-  background: url("../img/close.png") no-repeat;
+  background: url("..../img/close.png") no-repeat;
   background-size: 69%;
   width: 2vw;
   height: 2vw;
@@ -201,7 +201,7 @@ body {
 }
 
 .section {
-  background: url("/img/section-one__background.png") no-repeat;
+  background: url("../img/section-one__background.png") no-repeat;
   background-size: 100%;
   background-position-y: -7vh;
   height: 124vw;
@@ -324,7 +324,7 @@ body {
 }
 
 .section .section-one .info .info-box .box .box__icon-one {
-  background: url("/img/icon1.png") no-repeat;
+  background: url("../img/icon1.png") no-repeat;
   background-size: 42%;
   background-position-x: 50%;
   position: relative;
@@ -333,7 +333,7 @@ body {
 .section .section-one .info .info-box .box .box__icon-one::after {
   content: '';
   position: absolute;
-  background: url("/img/arrow.png") no-repeat;
+  background: url("../img/arrow.png") no-repeat;
   background-size: 21%;
   background-position-x: 97%;
   background-position-y: 95%;
@@ -342,7 +342,7 @@ body {
 }
 
 .section .section-one .info .info-box .box .box__icon-two {
-  background: url("/img/icon2.png") no-repeat;
+  background: url("../img/icon2.png") no-repeat;
   background-size: 23%;
   background-position-x: 50%;
   position: relative;
@@ -351,7 +351,7 @@ body {
 .section .section-one .info .info-box .box .box__icon-two::after {
   content: '';
   position: absolute;
-  background: url("/img/arrow.png") no-repeat;
+  background: url("../img/arrow.png") no-repeat;
   background-size: 8%;
   background-position-x: 50%;
   background-position-y: 93%;
@@ -360,7 +360,7 @@ body {
 }
 
 .section .section-one .info .info-box .box .box__icon-three {
-  background: url("/img/icon3.png") no-repeat;
+  background: url("../img/icon3.png") no-repeat;
   background-size: 12%;
   background-position-x: 50%;
   position: relative;
@@ -369,7 +369,7 @@ body {
 .section .section-one .info .info-box .box .box__icon-three::after {
   content: '';
   position: absolute;
-  background: url("/img/arrow.png") no-repeat;
+  background: url("../img/arrow.png") no-repeat;
   background-size: 10%;
   background-position-x: 55%;
   background-position-y: 95%;
@@ -378,7 +378,7 @@ body {
 }
 
 .section .section-one .info .info-box .box .box__icon-four {
-  background: url("/img/icon4.png") no-repeat;
+  background: url("../img/icon4.png") no-repeat;
   background-size: 24%;
   background-position-x: 50%;
   position: relative;
@@ -387,7 +387,7 @@ body {
 .section .section-one .info .info-box .box .box__icon-four::after {
   content: '';
   position: absolute;
-  background: url("/img/arrow.png") no-repeat;
+  background: url("../img/arrow.png") no-repeat;
   background-size: 14%;
   background-position-x: 67%;
   background-position-y: 95%;
@@ -396,7 +396,7 @@ body {
 }
 
 .section .section-one .info .info-box .box .box__icon-five {
-  background: url("/img/icon5.png") no-repeat;
+  background: url("../img/icon5.png") no-repeat;
   background-size: 26%;
   background-position-x: 50%;
   background-position-y: 2px;
@@ -487,23 +487,23 @@ body {
 }
 
 .section-two .swiper .swiper-wrapper .slide__img-one {
-  background: url("/img/cheese1.png") no-repeat;
+  background: url("../img/cheese1.png") no-repeat;
   background-size: 100%;
 }
 
 .section-two .swiper .swiper-wrapper .slide__img-two {
-  background: url("/img/cheese2.png") no-repeat;
+  background: url("../img/cheese2.png") no-repeat;
   background-size: 92%;
   background-position-y: 33%;
 }
 
 .section-two .swiper .swiper-wrapper .slide__img-three {
-  background: url("/img/cheese3.png") no-repeat;
+  background: url("../img/cheese3.png") no-repeat;
   background-size: 100%;
 }
 
 .section-two .swiper .swiper-wrapper .slide__img-four {
-  background: url("/img/cheese4.png") no-repeat;
+  background: url("../img/cheese4.png") no-repeat;
   background-size: 92%;
   background-position-y: 33%;
 }
@@ -604,7 +604,7 @@ body {
 }
 
 .footer .social .icon__fb::after {
-  background: url("/img/fb.svg") no-repeat;
+  background: url("../img/fb.svg") no-repeat;
   background-size: 24%;
   background-position-x: 65%;
   background-position-y: 56%;
@@ -615,7 +615,7 @@ body {
 }
 
 .footer .social .icon__vc::after {
-  background: url("/img/vc.svg") no-repeat;
+  background: url("../img/vc.svg") no-repeat;
   background-size: 54%;
   background-position-x: 65%;
   background-position-y: 56%;
@@ -626,7 +626,7 @@ body {
 }
 
 .footer .social .icon__link::after {
-  background: url("/img/link.svg") no-repeat;
+  background: url("../img/link.svg") no-repeat;
   background-size: 45%;
   background-position-x: 65%;
   background-position-y: 56%;
@@ -637,7 +637,7 @@ body {
 }
 
 .footer .social .icon__tw::after {
-  background: url("/img/twit.svg") no-repeat;
+  background: url("../img/twit.svg") no-repeat;
   background-size: 53%;
   background-position-x: 65%;
   background-position-y: 56%;
@@ -648,7 +648,7 @@ body {
 }
 
 .footer .social .icon__inst::after {
-  background: url("/img/insta.svg") no-repeat;
+  background: url("../img/insta.svg") no-repeat;
   background-size: 45%;
   background-position-x: 65%;
   background-position-y: 56%;
@@ -659,7 +659,7 @@ body {
 }
 
 .footer .social .icon__p::after {
-  background: url("/img/p.svg") no-repeat;
+  background: url("../img/p.svg") no-repeat;
   background-size: 38%;
   background-position-x: 65%;
   background-position-y: 56%;
@@ -713,7 +713,7 @@ body {
     padding: 11% 21%;
   }
   .section {
-    background: url("/img/section-one__backgroundMOBILE.png") no-repeat;
+    background: url("../img/section-one__backgroundMOBILE.png") no-repeat;
     background-color: #ffcd00;
     background-size: 100%;
     background-position-y: -22vh;
@@ -758,7 +758,7 @@ body {
   .section .section-one .info .info-box .box::after {
     content: '';
     position: absolute;
-    background: url(/img/arrow.png) no-repeat;
+    background: url(../img/arrow.png) no-repeat;
     background-size: 8%;
     background-position-x: 5%;
     background-position-y: 50%;
