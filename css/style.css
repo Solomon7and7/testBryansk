@@ -763,7 +763,7 @@ body {
     background-position-x: 5%;
     background-position-y: 50%;
     width: 60%;
-    height: 60%;
+    height: 20%;
     -webkit-transform: rotate(90deg);
             transform: rotate(90deg);
   }
