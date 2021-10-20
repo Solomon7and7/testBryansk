@@ -61,7 +61,7 @@ function createModalWin() {
 // if (authorReg.style.display === none) {
 //   console.log('hello')
 // }
-const header = document.querySelector('.header');
+// const header = document.querySelector('.header');
 
 // if (window.screen.availWidth <= 640) {
 //   header.insertAdjacentHTML("afterbegin", `
