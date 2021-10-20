@@ -6,9 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>OLTERMANNI</title>
   <link rel="stylesheet" href="fonts/font.css">
-  <!-- <link rel="stylesheet" href="node_modules/swiper/swiper-bundle.css"> -->
-  <link rel="stylesheet" href="./node_modules/swiper/swiper-bundle.css">
-  <link rel="stylesheet" href="css/style.css" type="text/css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="node_modules/swiper/swiper-bundle.css">
 </head>
 <body>
     <header class="header">
@@ -116,6 +115,8 @@
     <!-- JS код со СВАЙПЕРОМ поместил сюда, в script.js сделать не получилось, вылетали ошибки еще на импорте -->
     <!-- Для того чтобы увидеть что на мобилке он корректно работает, 
       нужно обновить страницу на нужном разрешении экрана -->
+      
+  <script src="node_modules/swiper/swiper-bundle.js"></script>
     <script type="module">
       if (window.screen.availWidth <= 640) {
         const swiper = new Swiper('.swiper', {
@@ -162,7 +163,6 @@
     });
     }
     </script>
-  <script src="node_modules/swiper/swiper-bundle.js"></script>
   <script src="js/script.js"></script>
 </body>
 </html>
