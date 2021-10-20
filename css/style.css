@@ -111,7 +111,7 @@ body {
 }
 
 .header .logo {
-  background: url("/img/logo.png") no-repeat;
+  background: url("../img/logo.png") no-repeat;
   background-size: 100%;
   width: 15.3%;
   height: 35%;
@@ -182,7 +182,7 @@ body {
 }
 
 .win .win__close {
-  background: url("/img/close.png") no-repeat;
+  background: url("../img/close.png") no-repeat;
   background-size: 69%;
   width: 2vw;
   height: 2vw;
@@ -364,7 +364,7 @@ body {
 }
 
 .section .section-one .info .info-box .box .box__icon-three {
-  background: url("../img/icon3.png") no-repeat;
+  background: url("/img/icon3.png") no-repeat;
   background-size: 12%;
   background-position-x: 50%;
   position: relative;
@@ -373,7 +373,7 @@ body {
 .section .section-one .info .info-box .box .box__icon-three::after {
   content: '';
   position: absolute;
-  background: url("../img/arrow.png") no-repeat;
+  background: url("/img/arrow.png") no-repeat;
   background-size: 10%;
   background-position-x: 55%;
   background-position-y: 95%;

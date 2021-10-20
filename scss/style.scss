@@ -35,7 +35,7 @@ body{
   justify-content: space-between;
   align-items: center;
   .logo {
-    background: url("/img/logo.png") no-repeat;
+    background: url("../img/logo.png") no-repeat;
     background-size: 100%;
     width: 15.3%;
     height: 35%;
@@ -97,7 +97,7 @@ body{
   top: 4vw;
   right: -1vw;
   .win__close {
-    background: url('/img/close.png') no-repeat;
+    background: url('../img/close.png') no-repeat;
     background-size: 69%;
     width: 2vw;
     height: 2vw;
