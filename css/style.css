@@ -364,7 +364,7 @@ body {
 }
 
 .section .section-one .info .info-box .box .box__icon-three {
-  background: url("/img/icon3.png") no-repeat;
+  background: url("../img/icon3.png") no-repeat;
   background-size: 12%;
   background-position-x: 50%;
   position: relative;
