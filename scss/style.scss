@@ -34,6 +34,7 @@ body{
   display: flex;
   justify-content: space-between;
   align-items: center;
+
   .logo {
     background: url("../img/logo.png") no-repeat;
     background-size: 100%;
@@ -42,13 +43,16 @@ body{
     margin-right: 3%;
     cursor: pointer;
   }
+  
   .menu {
     width: 30%;
     @extend .flexSB;
+
     .menu__item {
       @extend .header__items;
       cursor: pointer;
       transition: all 0.4s;
+
       &:hover {
         background-color: #FFCD00;
         border-radius: 30px;
@@ -61,23 +65,28 @@ body{
     width: 19.5%;
     position: relative;
     @extend .flexSB;
+
     .active {
       background-color: #FFCD00;
       padding: 5% 5%;
       border-radius: 30px;
     }
+
     .author__login {
       background-color: #FFCD00;
       padding: 5% 18%;
       border-radius: 30px;
       transition: all 1s;
     }  
+
     .author__item {
       @extend .header__items;
       cursor: pointer;
     }
+
     .author__reg {
       transition: all 0.5s;
+
       &:hover {
         background-color: #FFCD00;
         border-radius: 30px;
@@ -96,6 +105,7 @@ body{
   border: solid #E63000 1px;
   top: 4vw;
   right: -1vw;
+
   .win__close {
     background: url('../img/close.png') no-repeat;
     background-size: 69%;
@@ -104,6 +114,7 @@ body{
     cursor: pointer;
     margin: 0.5vw 16vw;
   }
+
   .win__button-close {
     width: 6vw;
     height: 2vw;
@@ -111,6 +122,7 @@ body{
     border-radius: 0.5vw;
     border: solid #E63000 1px;
     transition: all 0.5s;
+
     &:hover {
       background-color: #FFCD00;
     }
@@ -123,14 +135,17 @@ body{
   background-position-y: -7vh;
   height: 124vw;
   margin-bottom: 3%;
+
   .section-one {
     display: flex;
     align-items: center;
     flex-direction: column;
     height: 69.5%;
+    
     .one-box__item {
       margin-bottom: 48%;
     }
+
     .order {
       font-family: PFDinTextCondPro-Medium;
       font-size: 1.1vw;
@@ -144,10 +159,12 @@ body{
       margin-bottom: 4.5%;
       transition: all 0.5s ease-in-out;
       animation: flash 1.5s infinite alternate ease-out;
+
       &:hover {
         transform: scale(1.2);
         background-color: #ff790bec;
       }
+
       @keyframes flash{
         to {
           background-color: #ff790bec;
@@ -159,6 +176,7 @@ body{
       display: flex;
       align-items: center;
       flex-direction: column;
+
       .info__title {
         font-family: PFDinTextCondPro-Medium;
         font-size: 4.2vw;
@@ -169,6 +187,7 @@ body{
         text-shadow: white -3px 4px 0;
         margin-bottom: 7%;
       }
+
       .info-box {
         @extend .flexSB;
         flex-direction: row;
@@ -196,6 +215,7 @@ body{
             background-position-x: 50%;
             @extend .icon-size;
             position: relative;
+
             &::after {
               content: '';
               position: absolute;
@@ -207,12 +227,14 @@ body{
               height: 173%;
             }
           }
+
           .box__icon-two {
             background: url("/img/icon2.png") no-repeat;
             background-size: 23%;
             background-position-x: 50%;
             @extend .icon-size;
             position: relative;
+
             &::after {
               content: '';
               position: absolute;
@@ -224,12 +246,14 @@ body{
               height: 173%;
             }
           }
+
           .box__icon-three {
             background: url("/img/icon3.png") no-repeat;
             background-size: 12%;
             background-position-x: 50%;
             @extend .icon-size;
             position: relative;
+
             &::after {
               content: '';
               position: absolute;
@@ -241,12 +265,14 @@ body{
               height: 173%;
             }
           }
+
           .box__icon-four {
             background: url("/img/icon4.png") no-repeat;
             background-size: 24%;
             background-position-x: 50%;
             @extend .icon-size;
             position: relative;
+
             &::after {
               content: '';
               position: absolute;
@@ -258,6 +284,7 @@ body{
               height: 173%;
             }
           }
+
           .box__icon-five {
             background: url("/img/icon5.png") no-repeat;
             background-size: 26%;
@@ -265,6 +292,7 @@ body{
             background-position-y: 2px;
             @extend .icon-size;
           }
+
           .box__description {
             font-size: 1.2vw;
             color: #5B1A0D;
@@ -294,6 +322,7 @@ body{
     flex-direction: column;
     align-items: center;
     position: relative;
+
     .section-two__title {
       @extend .header__items;
       font-size: 2.5vw;
@@ -305,11 +334,13 @@ body{
     .swiper {
       width: 82vw;
       height: 33vw;
+
       .swiper-wrapper {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         align-items: center; 
+
           .slide__description {
             font-family: PFDinTextCondPro-Medium;
             font-size: 1.2vw;
@@ -366,9 +397,11 @@ body{
 
 .footer {
   @extend .flexSB;
+
   .footer-info {
     padding: 0 0.3vw 0.8vw 0.3vw;
   }
+
   .footer-info__title {
     font-family: PFDinTextCondPro-Medium;
     font-size: 1.1vw;
@@ -376,53 +409,64 @@ body{
     margin-bottom: 4%;
     color: #5a1404;
   }
+
   .footer-info__number {
     font-family: PFDinTextCondPro-Bold;
     font-size: 2.4vw;
     margin-bottom: 4%;
     color: #e43219;
   }
+
   .footer-info__description {
     font-family: PFDinTextCondPro-Medium;
     font-size: 0.8vw;
     text-transform: uppercase;
     color: #5b1a0d;
   }
+
   .footer-menu {
     padding: 0 0 6vw 0;
+
     .footer-menu__item {
       font-family: PFDinTextCondPro-Medium;
       font-size: 1.1vw;
       padding: 0vw 2.3vw 0vw 2.3vw;
       color: #5a1404;
       transition: all 0.5s;
+
       &:hover {
         background-color: #FFCD00;
         border-radius: 30px;
       }
     }
+
     .footer-menu__faq {
     text-transform: uppercase;
     }
   }
+
   .social {
     padding-bottom: 3.3%;
+
     .social__title {
       font-family: PFDinTextCondPro-Medium;
       font-size: 1.1vw;
       color: #5a1404;
       margin-bottom: 6%;
     }
+
     .social-icons{
       display: flex;
       flex-direction: row;
     }
+
     .social-icon {
       width: 2.3vw;
       height: 2.3vw;
       background-color: #FFCD00;
       margin-right: 9px;
       border-radius: 18%;
+
       &:hover {
         opacity: 0.9;
         transform: scale(1.2);
@@ -436,8 +480,10 @@ body{
       height: 2vw;
       cursor: pointer;
     }
+
     .icon__fb {
       position: relative;
+
       &::after{
         @extend .social-icon-size;
         background: url('/img/fb.svg') no-repeat;
@@ -446,8 +492,10 @@ body{
         background-position-y: 56%;
       }
     }
+
     .icon__vc {
       position: relative;
+
       &::after{
         @extend .social-icon-size;
         background: url('/img/vc.svg') no-repeat;
@@ -456,8 +504,10 @@ body{
         background-position-y: 56%;
       }
     }
+
     .icon__link {
       position: relative;
+
       &::after{
         @extend .social-icon-size;
         background: url('/img/link.svg') no-repeat;
@@ -466,8 +516,10 @@ body{
         background-position-y: 56%;
       }
     }
+
     .icon__tw {
       position: relative;
+
       &::after{
         @extend .social-icon-size;
         background: url('/img/twit.svg') no-repeat;
@@ -476,8 +528,10 @@ body{
         background-position-y: 56%;
       }
     }
+
     .icon__inst {
       position: relative;
+
       &::after{
         @extend .social-icon-size;
         background: url('/img/insta.svg') no-repeat;
@@ -486,8 +540,10 @@ body{
         background-position-y: 56%;
       }
     }
+
     .icon__p {
       position: relative;
+
       &::after{
         @extend .social-icon-size;
         background: url('/img/p.svg') no-repeat;
@@ -509,9 +565,11 @@ body{
   .section-two {
     padding: 0 3%;
   }
+
   .section-two .swiper {
     width: 90vw;
   } 
+
   .section .section-one .info .info__title {
     text-shadow: white -2px 2px 0;
   }
@@ -521,28 +579,37 @@ body{
   .header, .info, .section-two, .footer {
     padding: 0 4%;
   }
+
   .header {
     height: 17vw;
+
     .author {
       width: 22.5%;
+
       .author__login {
         padding: 11% 31%;
       }
     }
-    .logo{
+
+    .logo {
       width: 47.3%;
       height: 39%;
     }
+
     .menu { 
       display: none;
     }
+
     .author {
+
      .author__reg {
       display: none;
      }
+
      .author__item {
       font-size: 4.18vw;
      }
+
      .author__login {
       padding: 11% 21%;
      }
@@ -556,18 +623,23 @@ body{
     background-position-y: -22vh;
     height: 550vw;
     margin-bottom: -18%;
+
     .section-one {
       height: 74.5%;
+
       .one-box__item {
         margin-bottom: 73.7%;
       }
+
       .order {
         font-size: 3.8vw;
         padding: 2.2% 9.2%;
         border: solid 1.8vw;
         margin-bottom: 22.5%;
       }
+
       .info {
+
         .info__title {
           font-size: 9.5vw;
           text-align: center;
@@ -575,13 +647,16 @@ body{
           text-shadow: white -3px 4px;
           margin-bottom: 10%;
         }
+
         .info-box {
           flex-direction: column;
           align-items: center;
           height: 250vw;
+
           .box {
             height: 55vw;
             justify-content: none;
+
             &::after {
               content: '';
               position: absolute;
@@ -593,37 +668,45 @@ body{
               height: 60%;
               transform: rotate(90deg);
             }
+
             .box__icon-one{
               background-size: 24%;
+
               &::after {
                 display: none;
               }
             }
+
             .box__icon-two {
               &::after {
                 display: none;
               }
             }
+
             .box__icon-three{
               background-size: 10%;
               &::after {
                 display: none;
               }
             }
+
             .box__icon-four {
               background-size: 14%;
               &::after {
                 display: none;
               }
             }
+
             .box__icon-five {
               background-size: 22%;
             }
+
             .box__description {
               font-size: 5.4vw;
               font-family: PFDinTextCondPro-Medium;
               width: 68%;
             }
+
             .box__description-two {
               width: 90%;
             }
@@ -633,30 +716,38 @@ body{
       }
     }
   }
+
   .section .section-one .info .info-box .box .icon-size, .section .section-one .info .info-box .box .box__icon-one, .section .section-one .info .info-box .box .box__icon-two, .section .section-one .info .info-box .box .box__icon-three, .section .section-one .info .info-box .box .box__icon-four, .section .section-one .info .info-box .box .box__icon-five {
     width: 100%;
     height: 18vw;
   }
+
   .section-two {
+
     .section-two__title {
       font-size: 8.3vw;
       font-family: PFDinTextCondPro-Medium;
       padding-top: 0%;
       margin-bottom: 9%;
     }
+
     .swiper {
       width: 92vw;
       height: 93vw;
+
       .swiper-wrapper {
+
         .slide__description {
           font-size: 4.7vw;
           width: 90%;
           padding-left: 0;
         } 
+
         .slide__description-one {
           width: 86%;
           padding-left: 9%;
         }
+
         .slide__description-three {
           width: 93%;
           padding-left: 0;
@@ -664,6 +755,7 @@ body{
       }
     }
   }
+
   .section-two .swiper .swiper-wrapper .slider-img-size, .section-two .swiper .swiper-wrapper .slide__img-one, .section-two .swiper .swiper-wrapper .slide__img-two, .section-two .swiper .swiper-wrapper .slide__img-three, .section-two .swiper .swiper-wrapper .slide__img-four {
     width: 95%;
     height: 64vw;
@@ -674,26 +766,32 @@ body{
     flex-flow: column wrap;
     align-content: space-between;
     justify-content: space-between;
+
     .footer-menu {
       padding: 0 0 8vw 0;
+
       .footer-menu__item {
         font-size: 4vw;
         padding: 0vw 5.6vw;
       }
     }
+
     .footer-info {
       position: relative;
       display: flex;
       flex-direction: column;
       align-items: center;
     }
+
     .footer-info__title {
       font-size: 3.9vw;
     }
+
     .footer-info__number {
       font-size: 7.9vw;
       margin-bottom: 11%;
     }
+
     .footer-info__description {
       position: absolute;
       bottom: -26vw;
@@ -704,17 +802,21 @@ body{
     .footer-info:nth-child(n + 1) {
       order: 1;
     }
+
     .social:nth-child(n + 1) {
       order: 1;
     }
+
     .social {
       padding-bottom: 3.3%;
       display: flex;
       flex-direction: column;
       align-items: center;
+
       .social__title {
         font-size: 3.8vw;
       }
+
       .social-icon {
         width: 10vw;
         height: 9vw;
@@ -724,6 +826,7 @@ body{
       }
     }
   }
+
   .footer .social .social-icon-size, .footer .social .icon__fb::after, .footer .social .icon__vc::after, .footer .social .icon__link::after, .footer .social .icon__tw::after, .footer .social .icon__inst::after, .footer .social .icon__p::after {
     content: '';
     position: absolute;
@@ -737,13 +840,16 @@ body{
   .section {
     background-position-y: -12vh;
   }
+
   .header .author .author__login {
     padding: 11% 31%;
   }
+
   .footer .footer-menu .footer-menu__item {
     font-size: 4vw;
     padding: 0vw 5.3vw;
   }
+
   .footer .social .social-icon {
     width: 9vw;
     height: 9vw;
@@ -751,6 +857,7 @@ body{
     margin-right: 9px;
     border-radius: 18%;
   }
+
   .footer .social .social-icon-size, .footer .social .icon__fb::after, .footer .social .icon__vc::after, .footer .social .icon__link::after, .footer .social .icon__tw::after, .footer .social .icon__inst::after, .footer .social .icon__p::after, .footer .social .icon__fb::after, .footer .social .icon__vc::after, .footer .social .icon__link::after, .footer .social .icon__tw::after, .footer .social .icon__inst::after, .footer .social .icon__p::after {
     content: '';
     position: absolute;
