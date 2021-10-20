@@ -1,9 +1,9 @@
 @font-face {
   font-family: 'PFDinTextCondPro-Bold';
   src: 
-    url("/fonts/PFDinTextCondPro-Bold.ttf"),
-    url('/fonts/pfdintextcondpro-bold.woff') format('woff2'),
-    url('/fonts/pfdintextcondpro-bold.woff2') format('woff');
+    url("PFDinTextCondPro-Bold.ttf"),
+    url('pfdintextcondpro-bold.woff') format('woff2'),
+    url('pfdintextcondpro-bold.woff2') format('woff');
   font-weight: normal;
   font-style: normal;
 }
@@ -11,9 +11,9 @@
 @font-face {
   font-family: 'PFDinTextCondPro-Medium';
   src: 
-    url("/fonts/PFDinTextCondPro-Medium.ttf"),
-    url('/fonts/pfdintextcondpro-medium.woff') format('woff2'),
-    url('/fonts/pfdintextcondpro-medium.woff2') format('woff');
+    url("PFDinTextCondPro-Medium.ttf"),
+    url('pfdintextcondpro-medium.woff') format('woff2'),
+    url('pfdintextcondpro-medium.woff2') format('woff');
   font-weight: normal;
   font-style: normal;
 }
@@ -21,9 +21,9 @@
 @font-face {
   font-family: 'PFDinTextCondPro-Regular';
   src: 
-    url("/fonts/PFDinTextCondPro-Regular.ttf"),
-    url('/fonts/pfdintextcondpro-regular.woff') format('woff2'),
-    url('/fonts/pfdintextcondpro-regular.woff2') format('woff');
+    url("PFDinTextCondPro-Regular.ttf"),
+    url('pfdintextcondpro-regular.woff') format('woff2'),
+    url('pfdintextcondpro-regular.woff2') format('woff');
   font-weight: normal;
   font-style: normal;
 }
