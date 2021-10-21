@@ -5,7 +5,7 @@ body{
   margin: 0 auto;
 }
 
-#menu__toggle {
+.burger-menu {
   display: none;
 }
 
@@ -413,7 +413,7 @@ body{
   }
 
   .footer-info__number {
-    font-family: PFDinTextCondPro-Bold, Arial, Helvetica, sans-serif;
+    font-family: PFDinTextCondPro-Medium, Arial, Helvetica, sans-serif;
     font-size: 2.4vw;
     margin-bottom: 4%;
     color: #e43219;
@@ -578,6 +578,78 @@ body{
 }
 
 @media (max-width: 640px) {
+
+.burger-menu {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 6.6vw;
+  height: 1vw;
+  margin-right: -17vw;
+  position: relative;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.burger-menu__item-one, 
+.burger-menu__item-two, 
+.burger-menu__item-three {
+  position: absolute;
+  padding: 0.5vw 0;
+  margin-bottom: 1vw;
+  width: 6.6vw;
+  height: 0.3vw;
+  background-color: #5B1A0D;
+  border-radius: 20vw;
+  transition: all 0.5s ease-in-out;
+}
+
+.burger-menu__item-one {
+  top: -2vw;
+}
+
+.burger-menu__item-two {
+  top: 0;
+}
+
+.burger-menu__item-three {
+  top: 2vw;
+}
+
+.burger-menu__item-before {
+  top: 0;
+  transform: rotate(45deg);
+}
+
+.burger-menu__item-center {
+  transform: rotate(-135deg);
+}
+
+.burger-menu__item-after {
+  top: 0;
+  transform: rotate(135deg);
+}
+
+.mobile-menu {
+  width: 100vw;
+  height: 125vw;
+  background-color: #FFCD00;
+  position: absolute;
+  border-radius: 1vw;
+  top: 9vw;
+  left: -4vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.hidden {
+  display: none;
+  opacity: 0;
+}
+
+/* бургер меню конец */
+
   .header, .info, .section-two, .footer {
     padding: 0 4%;
   }
@@ -594,8 +666,8 @@ body{
     }
 
     .logo {
-      width: 47.3%;
-      height: 39%;
+      width: 41.3%;
+    height: 35%;
     }
 
     .menu { 
@@ -614,10 +686,6 @@ body{
 
      .author__item {
       font-size: 4.18vw;
-     }
-
-     .author__login {
-      padding: 11% 21%;
      }
     }
   }
