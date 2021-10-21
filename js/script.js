@@ -63,25 +63,26 @@ function createModalWin() {
 burgerMenu.addEventListener('click', createMobileMenu);
 burgerMenu.addEventListener('click', rotate);
 burgerMenu.addEventListener('click', e => {
-  document.querySelector('.mobile-menu').classList.toggle('hidden')
+  document.querySelector('.mobile-menu').classList.toggle('hidden');
+  document.querySelector('.author').classList.toggle('hidden');
 });
 
 function createMobileMenu () {
   while (document.querySelector('.mobile-menu') <1) {
     burgerMenu.insertAdjacentHTML("beforeend", `
       <div class="mobile-menu hidden">
-        <nav class = "nav-menu">
-          <a class="nav-menu__item rules">Правила</a>
-          <a class="nav-menu__item prizes">Призы</a>
-          <a class="nav-menu__item winners">Победители</a>
+        <nav class = "mobile-nav-menu">
+          <a class="menu__item rules">Правила</a>
+          <a class="menu__item prizes">Призы</a>
+          <a class="menu__item winners">Победители</a>
         </nav>
-        <div></div>
+        <div class="line"></div>
         <nav class="info-mobile">
           <a class="footer-menu__item footer-menu__connect" href="javascript:;">Обратная связь</a>
           <a class="footer-menu__item footer-menu__rules" href="javascript:;">Правила акции</a>
           <a class="footer-menu__item footer-menu__faq" href="javascript:;">faq</a>
         </nav>
-        <div></div>
+        <div class="line"></div>
         <div class="social-mobile">
           <div class="social__title">Присоединяйтесь к нам</div>
           <div class="social-icons"> 

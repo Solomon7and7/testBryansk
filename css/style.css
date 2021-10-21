@@ -759,6 +759,66 @@ body {
     -ms-flex-pack: distribute;
         justify-content: space-around;
   }
+  .mobile-menu .mobile-nav-menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    font-family: 'PFDinTextCondPro-Medium';
+    font-size: 4.6vw;
+    text-transform: uppercase;
+    height: 30vw;
+    padding-left: 6vw;
+    margin-top: 5vw;
+    color: #5A1404;
+  }
+  .mobile-menu .info-mobile {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    font-family: 'PFDinTextCondPro-Medium';
+    font-size: 4vw;
+    height: 26vw;
+    padding-left: 6vw;
+    margin-top: 3vw;
+    color: #5A1404;
+  }
+  .mobile-menu .social-mobile {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    font-family: 'PFDinTextCondPro-Medium';
+    font-size: 4vw;
+    height: 26vw;
+    padding-left: 6vw;
+    margin-top: 3vw;
+    color: #5A1404;
+  }
+  .mobile-menu .line {
+    width: 100vw;
+    height: 0.4vw;
+    background-color: #ECB200;
+  }
   .hidden {
     display: none;
     opacity: 0;
