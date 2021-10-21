@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   padding: 0;
   margin: 0;
@@ -65,7 +66,7 @@ body {
   margin: 0 auto;
 }
 
-#menu__toggle {
+.burger-menu {
   display: none;
 }
 
@@ -523,7 +524,7 @@ body {
 }
 
 .footer .footer-info__number {
-  font-family: PFDinTextCondPro-Bold, Arial, Helvetica, sans-serif;
+  font-family: PFDinTextCondPro-Medium, Arial, Helvetica, sans-serif;
   font-size: 2.4vw;
   margin-bottom: 4%;
   color: #e43219;
@@ -686,6 +687,83 @@ body {
 }
 
 @media (max-width: 640px) {
+  .burger-menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 6.6vw;
+    height: 1vw;
+    margin-right: -17vw;
+    position: relative;
+    cursor: pointer;
+    z-index: 1;
+  }
+  .burger-menu__item-one,
+  .burger-menu__item-two,
+  .burger-menu__item-three {
+    position: absolute;
+    padding: 0.5vw 0;
+    margin-bottom: 1vw;
+    width: 6.6vw;
+    height: 0.3vw;
+    background-color: #5B1A0D;
+    border-radius: 20vw;
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+  }
+  .burger-menu__item-one {
+    top: -2vw;
+  }
+  .burger-menu__item-two {
+    top: 0;
+  }
+  .burger-menu__item-three {
+    top: 2vw;
+  }
+  .burger-menu__item-before {
+    top: 0;
+    -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+  }
+  .burger-menu__item-center {
+    -webkit-transform: rotate(-135deg);
+            transform: rotate(-135deg);
+  }
+  .burger-menu__item-after {
+    top: 0;
+    -webkit-transform: rotate(135deg);
+            transform: rotate(135deg);
+  }
+  .mobile-menu {
+    width: 100vw;
+    height: 125vw;
+    background-color: #FFCD00;
+    position: absolute;
+    border-radius: 1vw;
+    top: 9vw;
+    left: -4vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .hidden {
+    display: none;
+    opacity: 0;
+  }
+  /* бургер меню конец */
   .header, .info, .section-two, .footer {
     padding: 0 4%;
   }
@@ -699,8 +777,8 @@ body {
     padding: 11% 31%;
   }
   .header .logo {
-    width: 47.3%;
-    height: 39%;
+    width: 41.3%;
+    height: 35%;
   }
   .header .menu {
     display: none;
@@ -714,9 +792,6 @@ body {
   }
   .header .author .author__item {
     font-size: 4.18vw;
-  }
-  .header .author .author__login {
-    padding: 11% 21%;
   }
   .section {
     background: url("../img/section-one__backgroundMOBILE.png") no-repeat;
