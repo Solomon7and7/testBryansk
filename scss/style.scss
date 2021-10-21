@@ -641,6 +641,155 @@ body{
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  .mobile-nav-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'PFDinTextCondPro-Medium';
+    font-size: 4.6vw;
+    text-transform: uppercase;
+    height: 30vw;
+    padding-left: 6vw;
+    margin-top: 5vw;
+    color: #5A1404;
+    position: absolute;
+    top: 3vw;
+  }
+  .info-mobile {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'PFDinTextCondPro-Medium';
+    font-size: 4vw;
+    height: 26vw;
+    padding-left: 6vw;
+    margin-top: 3vw;
+    color: #5A1404;
+    position: absolute;
+    top: 51vw;
+    .info-mobile__item {
+      color: #5A1404;
+    }
+  }
+  .social-mobile {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'PFDinTextCondPro-Medium';
+    font-size: 4vw;
+    height: 18vw;
+    padding-left: 6vw;
+    margin-top: 3vw;
+    color: #5A1404;
+    position: absolute;
+    top: 93vw;
+    .social-mobile-icons {
+      display: flex;
+      flex-direction: row;
+    }
+
+    .social-mobile-icon {
+      width: 9.3vw;
+      height: 9.3vw;
+      background-color: #ECB200;
+      border-radius: 18%;
+      margin-right: 3vw;
+    }
+
+    //Шаблон для внутрен социалок псевдоклассов
+    .social-mobile-icon-size {
+      content: '';
+      position: absolute;
+      width: 8.5vw;
+      height: 8.5vw;
+      cursor: pointer;
+    }
+
+    .mobile-icon__fb {
+      position: relative;
+      &::after{
+        @extend .social-mobile-icon-size;
+        background: url('../img/fb.svg') no-repeat;
+        background-size: 24%;
+        background-position-x: 65%;
+        background-position-y: 56%;
+      }
+    }
+
+    .mobile-icon__vc {
+      position: relative;
+
+      &::after{
+        @extend .social-mobile-icon-size;
+        background: url('../img/vc.svg') no-repeat;
+        background-size: 54%;
+        background-position-x: 65%;
+        background-position-y: 56%;
+      }
+    }
+
+    .mobile-icon__link {
+      position: relative;
+
+      &::after{
+        @extend .social-mobile-icon-size;
+        background: url('../img/link.svg') no-repeat;
+        background-size: 45%;
+        background-position-x: 65%;
+        background-position-y: 56%;
+      }
+    }
+
+    .mobile-icon__tw {
+      position: relative;
+
+      &::after{
+        @extend .social-mobile-icon-size;
+        background: url('../img/twit.svg') no-repeat;
+        background-size: 53%;
+        background-position-x: 65%;
+        background-position-y: 56%;
+      }
+    }
+
+    .mobile-icon__inst {
+      position: relative;
+
+      &::after{
+        @extend .social-mobile-icon-size;
+        background: url('../img/insta.svg') no-repeat;
+        background-size: 45%;
+        background-position-x: 65%;
+        background-position-y: 56%;
+      }
+    }
+
+    .mobile-icon__p {
+      position: relative;
+
+      &::after{
+        @extend .social-mobile-icon-size;
+        background: url('../img/p.svg') no-repeat;
+        background-size: 38%;
+        background-position-x: 65%;
+        background-position-y: 56%;
+      }
+    }
+  }
+  .line-one {
+    width: 100vw;
+    height: 0.4vw;
+    background-color: #ECB200;
+    position: absolute;
+    top: 45vw;
+  }
+  .line-two {
+    width: 100vw;
+    height: 0.4vw;
+    background-color: #ECB200;
+    position: absolute;
+    top: 88vw;
+  }
 }
 
 .hidden {
