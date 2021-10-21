@@ -67,7 +67,35 @@ burgerMenu.addEventListener('click', e => {
   document.querySelector('.author').classList.toggle('hidden');
 });
 
+function scrollListener () {
+  window.addEventListener('scroll', () => {
+    if (document.querySelector('.mobile-menu').classList.contains('hidden') === false) {
+     createMobileMenu();
+     rotate();
+     document.querySelector('.mobile-menu').classList.toggle('hidden');
+     document.querySelector('.author').classList.toggle('hidden');
+   }
+ })
+}
+
+
+
+
 function createMobileMenu () {
+  //В бургер меню при нажатии на ПРАВИЛА ПРИЗЫ или ПОБЕДИТЕЛИ, скроллит экран к нужному блоку
+  document.querySelector('.rules').addEventListener('click', e => {
+    infoBox.scrollIntoView({block: "start", behavior: "smooth"});
+  });
+  
+  document.querySelector('.prizes').addEventListener('click', e => {
+    footer.scrollIntoView({block: "start", behavior: "smooth"});
+  });
+  
+  document.querySelector('.winners').addEventListener('click', e => {
+    footer.scrollIntoView({block: "start", behavior: "smooth"});
+  });
+
+  scrollListener ();
   while (document.querySelector('.mobile-menu') <1) {
     burgerMenu.insertAdjacentHTML("beforeend", `
       <div class="mobile-menu hidden">
