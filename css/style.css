@@ -777,6 +777,8 @@ body {
     padding-left: 6vw;
     margin-top: 5vw;
     color: #5A1404;
+    position: absolute;
+    top: 3vw;
   }
   .mobile-menu .info-mobile {
     display: -webkit-box;
@@ -795,6 +797,11 @@ body {
     padding-left: 6vw;
     margin-top: 3vw;
     color: #5A1404;
+    position: absolute;
+    top: 51vw;
+  }
+  .mobile-menu .info-mobile .info-mobile__item {
+    color: #5A1404;
   }
   .mobile-menu .social-mobile {
     display: -webkit-box;
@@ -809,15 +816,103 @@ body {
             justify-content: space-between;
     font-family: 'PFDinTextCondPro-Medium';
     font-size: 4vw;
-    height: 26vw;
+    height: 18vw;
     padding-left: 6vw;
     margin-top: 3vw;
     color: #5A1404;
+    position: absolute;
+    top: 93vw;
   }
-  .mobile-menu .line {
+  .mobile-menu .social-mobile .social-mobile-icons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .mobile-menu .social-mobile .social-mobile-icon {
+    width: 9.3vw;
+    height: 9.3vw;
+    background-color: #ECB200;
+    border-radius: 18%;
+    margin-right: 3vw;
+  }
+  .mobile-menu .social-mobile .social-mobile-icon-size, .mobile-menu .social-mobile .mobile-icon__fb::after, .mobile-menu .social-mobile .mobile-icon__vc::after, .mobile-menu .social-mobile .mobile-icon__link::after, .mobile-menu .social-mobile .mobile-icon__tw::after, .mobile-menu .social-mobile .mobile-icon__inst::after, .mobile-menu .social-mobile .mobile-icon__p::after {
+    content: '';
+    position: absolute;
+    width: 8.5vw;
+    height: 8.5vw;
+    cursor: pointer;
+  }
+  .mobile-menu .social-mobile .mobile-icon__fb {
+    position: relative;
+  }
+  .mobile-menu .social-mobile .mobile-icon__fb::after {
+    background: url("../img/fb.svg") no-repeat;
+    background-size: 24%;
+    background-position-x: 65%;
+    background-position-y: 56%;
+  }
+  .mobile-menu .social-mobile .mobile-icon__vc {
+    position: relative;
+  }
+  .mobile-menu .social-mobile .mobile-icon__vc::after {
+    background: url("../img/vc.svg") no-repeat;
+    background-size: 54%;
+    background-position-x: 65%;
+    background-position-y: 56%;
+  }
+  .mobile-menu .social-mobile .mobile-icon__link {
+    position: relative;
+  }
+  .mobile-menu .social-mobile .mobile-icon__link::after {
+    background: url("../img/link.svg") no-repeat;
+    background-size: 45%;
+    background-position-x: 65%;
+    background-position-y: 56%;
+  }
+  .mobile-menu .social-mobile .mobile-icon__tw {
+    position: relative;
+  }
+  .mobile-menu .social-mobile .mobile-icon__tw::after {
+    background: url("../img/twit.svg") no-repeat;
+    background-size: 53%;
+    background-position-x: 65%;
+    background-position-y: 56%;
+  }
+  .mobile-menu .social-mobile .mobile-icon__inst {
+    position: relative;
+  }
+  .mobile-menu .social-mobile .mobile-icon__inst::after {
+    background: url("../img/insta.svg") no-repeat;
+    background-size: 45%;
+    background-position-x: 65%;
+    background-position-y: 56%;
+  }
+  .mobile-menu .social-mobile .mobile-icon__p {
+    position: relative;
+  }
+  .mobile-menu .social-mobile .mobile-icon__p::after {
+    background: url("../img/p.svg") no-repeat;
+    background-size: 38%;
+    background-position-x: 65%;
+    background-position-y: 56%;
+  }
+  .mobile-menu .line-one {
     width: 100vw;
     height: 0.4vw;
     background-color: #ECB200;
+    position: absolute;
+    top: 45vw;
+  }
+  .mobile-menu .line-two {
+    width: 100vw;
+    height: 0.4vw;
+    background-color: #ECB200;
+    position: absolute;
+    top: 88vw;
   }
   .hidden {
     display: none;

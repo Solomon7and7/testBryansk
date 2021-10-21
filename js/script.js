@@ -76,22 +76,22 @@ function createMobileMenu () {
           <a class="menu__item prizes">Призы</a>
           <a class="menu__item winners">Победители</a>
         </nav>
-        <div class="line"></div>
+        <div class="line-one"></div>
         <nav class="info-mobile">
-          <a class="footer-menu__item footer-menu__connect" href="javascript:;">Обратная связь</a>
-          <a class="footer-menu__item footer-menu__rules" href="javascript:;">Правила акции</a>
-          <a class="footer-menu__item footer-menu__faq" href="javascript:;">faq</a>
+          <a class="info-mobile__item info-mobile__connect" href="javascript:;">Обратная связь</a>
+          <a class="info-mobile__item info-mobile__rules" href="javascript:;">Правила акции</a>
+          <a class="info-mobile__item info-mobile__faq" href="javascript:;">faq</a>
         </nav>
-        <div class="line"></div>
+        <div class="line-two"></div>
         <div class="social-mobile">
           <div class="social__title">Присоединяйтесь к нам</div>
-          <div class="social-icons"> 
-            <div class="social-icon icon__fb"></div>
-            <div class="social-icon icon__vc"></div>
-            <div class="social-icon icon__link"></div>
-            <div class="social-icon icon__tw"></div>
-            <div class="social-icon icon__inst"></div>
-            <div class="social-icon icon__p"></div>
+          <div class="social-mobile-icons"> 
+            <div class="social-mobile-icon mobile-icon__fb"></div>
+            <div class="social-mobile-icon mobile-icon__vc"></div>
+            <div class="social-mobile-icon mobile-icon__link"></div>
+            <div class="social-mobile-icon mobile-icon__tw"></div>
+            <div class="social-mobile-icon mobile-icon__inst"></div>
+            <div class="social-mobile-icon mobile-icon__p"></div>
           </div>
         </div>
       </div>
